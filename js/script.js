@@ -4,7 +4,10 @@ const myApp = createApp({
                 data() {
                     return {
                         title : 'Hello Vue!',
-                        myClasses : 'text-center display-2 fw-bold'
+                        containerClasses: 'd-flex justify-content-center align-items-center flex-column',
+                        myClasses : 'text-center display-2 fw-bold',
+                        image : 'img/rocks.jpg',
+                        imageClasses : 'w-100 mt-4'
                     }
                 }
             });
